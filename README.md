@@ -64,8 +64,8 @@ The car continuously:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/esp32-obstacle-car.git
-   cd esp32-obstacle-car
+   git clone https://github.com/Bimal-Web/-ESP32-Obstacle-Avoiding-Car.git
+   cd -ESP32-Obstacle-Avoiding-Car
    ```
 2. Open `esp32_obstacle_car.ino` in the Arduino IDE.
 3. Install the ESP32 board package via **Boards Manager** (search "esp32").
@@ -88,7 +88,7 @@ const int TURN_TIME = 500;      // ms - how long it turns, tune for ~90° turns
 ## Project Structure
 
 ```
-esp32-obstacle-car/
+-ESP32-Obstacle-Avoiding-Car/
 ├── esp32_obstacle_car.ino   # Main Arduino sketch
 └── README.md                 # This file
 ```
@@ -109,10 +109,6 @@ esp32-obstacle-car/
 - [ ] Add a camera module for vision-based navigation
 - [ ] Add wheel encoders for more precise turning
 - [ ] Add a mobile app / web dashboard for live monitoring
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## Contributing
 
